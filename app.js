@@ -1,7 +1,7 @@
 (function () {
     var Message, ApiEndpoint, ConversationContext;
 	
-	ApiEndpoint = "https://localhost:44371/api/v1/Assistant";
+	ApiEndpoint = "https://assistant-service.herokuapp.com/api/v1/Assistant";
 	ConversationContext = {};
 	
     Message = function (arg) {
